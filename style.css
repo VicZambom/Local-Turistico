@@ -1,0 +1,80 @@
+* {
+
+}
+
+:root {
+  --cor-00: #29292E; 
+  --cor-01: #333;
+  --cor-02: #1b1b1b; 
+  --cor-03: #0c51a7; 
+  --cor-04: #d9d9d9;
+  --cor-05: #e1624f;
+  --cor-06: #591B98;
+  --cor-07: #E5245E;
+  --cor-08: #E95E10;
+  --cor-09: #F5F4F0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+header p:nth-child(1){
+  color:var(--cor-05)
+}
+
+body {
+  background-color: var(--cor-09);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#page {
+  background-color: var(--cor-09);
+  padding: 88px 80px 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  width: 1280px;
+  max-width: 100%; 
+  height: auto;
+}
+
+h1, h2, h3 {
+  color: var(--cor-02);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+h1 { 
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 20px 0 4px 0;
+  text-indent: 0.4em;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
